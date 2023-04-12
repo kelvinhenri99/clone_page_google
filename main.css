@@ -1,0 +1,111 @@
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 70px 70px 50px 50px;
+    font-size: 15px;
+    text-align: right;
+    justify-content: right;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(40,40,40);
+}
+
+.menu a div ion-icon {
+    font-size: 20px;
+}
+
+#person-circle {
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.content {
+    width: 100%;
+    margin-top: 10.7%;
+    text-align: center;
+}
+
+.content div ion-icon {
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: rgb(180, 180, 180);
+}
+
+.content div input {
+    width: 580px;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 13px 0px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    text-indent: 50px;
+}
+
+.content div input:target {
+    border-color: red;
+}
+
+.content button {
+    background-color: rgba(238, 238, 238, 0.349);
+    color: rgb(40,40,40);
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.content button:hover {
+    box-shadow: 0px 0px 7px silver;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+}
+
+.footer p {
+    color: rgb(116, 116, 116);
+    text-indent: 30px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-bottom: 20px;
+}
+
+.footerLeft {
+    float: left;
+}
+
+.footerRight {
+    float: right;
+    padding-bottom: 15px;
+}
+
+.footerLeft a {
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    margin-left: 35px;
+}
+
+.footerRight a {
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    margin-right: 35px;
+}
+
+.footerLeft a:hover,
+.footerRight a:hover {
+    text-decoration: underline;
+}
